@@ -647,11 +647,11 @@ strong {
   /* clip-path: polygon(100% 100%, 100% 150px, 0 100%); */
   /* color: var(--white-color); */
   color: rgb(239, 112, 38);
-  top: 16vh;
+  top: 55vh;
   max-width: 100vh;
   max-height: 20vh;
   right: 0;
-  /* left: auto; */
+  left: 10vh;
   text-align: left;
   /* min-width: 680px;
   min-height: 680px; */
