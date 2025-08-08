@@ -598,6 +598,22 @@ strong {
 /*---------------------------------------
   SITE HEADER              
 -----------------------------------------*/
+.site-header-temp {
+  background: rgb(236, 236, 203);
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.site-header-temp .row{
+  height:20px;
+}
+
+.site-header-temp p{
+  color:rgb(255, 106, 0);
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
 .site-header {
   background: var(--primary-color);
   padding-top: 15px;
