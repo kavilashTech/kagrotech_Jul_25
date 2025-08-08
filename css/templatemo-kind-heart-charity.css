@@ -89,6 +89,15 @@ body {
   font-family: var(--body-font-family);
 }
 
+/*---------------------------------------
+  GENERAL               
+-----------------------------------------*/
+
+.spacer50 {
+  margin:50px 0px;
+}
+
+
 
 /*---------------------------------------
   TYPOGRAPHY               
@@ -784,6 +793,14 @@ strong {
   background-size: cover;
 }
 
+.about-title h2 {
+  color: var(--primary-color);
+  font-size: var(--h2-font-size);
+  letter-spacing: -2px;
+  margin-bottom: 20px;
+}
+}
+
 .about-image {
   border-radius: var(--border-radius-medium);
   display: block;
@@ -791,7 +808,22 @@ strong {
   height: 400px;
   object-fit: cover;
 }
+.about-text span{
+  background-color:rgb(255, 249, 177);
+  padding:5px 2px;
+  color:#000;
+  font-weight: bold;
+}
 
+.about-text .span2{
+  background-color:rgb(239, 193, 129);
+}
+
+.about-text p{
+  color:#000;
+  line-height: 166%;
+  margin-bottom: 2vh;
+}
 /* .custom-text-block {
   padding: 60px 40px;
 } */
