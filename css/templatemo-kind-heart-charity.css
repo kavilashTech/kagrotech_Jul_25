@@ -309,6 +309,12 @@ strong {
   font-weight: bold;
   cursor: pointer;
   width: 150px;
+  margin-top: auto;
+}
+.card-btn:hover {
+  color:#e9b007;
+  background:#000;
+  border : 1px solid #e9b007;
 }
 
 .download-text h3 {
