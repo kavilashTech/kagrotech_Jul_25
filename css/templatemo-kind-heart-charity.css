@@ -311,10 +311,11 @@ strong {
   width: 150px;
   margin-top: auto;
 }
+
 .card-btn:hover {
-  color:#e9b007;
-  background:#000;
-  border : 1px solid #e9b007;
+  color: #e9b007;
+  background: #000;
+  border: 1px solid #e9b007;
 }
 
 .download-text h3 {
@@ -691,6 +692,32 @@ strong {
   min-height: 680px;
 }
 
+#slideblock1{
+  background-image: url(../images/slide/health_bar1.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#slideblock2{
+  background-image: url(../images/slide/muesli.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#slideblock3{
+  background-image: url(../images/slide/pasta.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#slideblock4{
+  background-image: url(../images/slide/noodles1.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#slideblock5{
+  background-image: url(../images/slide/cookies.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
 #hero-slide .carousel-caption {
   /* clip-path: polygon(100% 100%, 100% 150px, 0 100%); */
   /* color: var(--white-color); */
@@ -701,8 +728,6 @@ strong {
   right: 0;
   left: 10vh;
   text-align: left;
-  /* min-width: 680px;
-  min-height: 680px; */
   padding: 1vh 1vh 1vh 1vh;
   justify-content: left;
   background-color: #e9eaeba6;
@@ -749,7 +774,7 @@ strong {
 .carousel-control-next,
 .carousel-control-prev {
   opacity: 1;
-  width:4%;
+  width: 4%;
 }
 
 .carousel-control-next-icon,
@@ -771,14 +796,15 @@ strong {
 
 .carousel-caption .btn-knowmore {
   background-color: #0866a7;
-  color:white;
-  width:25%;
+  color: white;
+  width: 25%;
 }
+
 .carousel-caption .btn-knowmore:hover {
   background-color: #102637;
   border: 1px solid #fff;
-  color:white;
-  width:25%;
+  color: white;
+  width: 25%;
 }
 
 
@@ -993,10 +1019,11 @@ table.minimalistBlack tbody td {
   text-align: left;
 }
 
-#energybar{
+#energybar {
   background-color: rgb(247, 247, 228);
 }
-#proteinbar{
+
+#proteinbar {
   background-color: rgb(225, 207, 161);
 }
 
@@ -1732,6 +1759,10 @@ blockquote::before {
     padding-bottom: 50px;
   }
 
+    .site-header-temp{
+    padding-bottom: 28px;
+  }
+
   .hero-form {
     padding-bottom: 40px;
   }
@@ -1770,6 +1801,22 @@ blockquote::before {
     height: inherit;
   }
 
+  
+  #hero-slide .carousel-caption {
+    top: 10%;
+    max-width: 75%;
+    max-height: max-content;
+    left: 15%;
+    text-align: left;
+    padding: 1vh 1vh .6vh 1vh;
+    background-color:rgb(233, 234, 235, .7 );
+    border-radius: 8px;
+    flex-direction: column !important;
+    display: flex !important;
+  }
+#hero-slide .carousel-caption h1 {
+  font-size: 55px!important;
+}
   .carousel:hover .carousel-control-next-icon,
   .carousel:hover .carousel-control-prev-icon {
     opacity: 1;
@@ -1922,10 +1969,66 @@ blockquote::before {
     font-size: 20px;
   }
 
-  #hero-slide .carousel-caption {
-    min-width: inherit;
-    padding-bottom: 30px;
+  .site-header-temp{
+    padding-bottom: 28px;
   }
+
+#slideblock1{
+  background-image: url(../images/slide/slide1m.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#slideblock2{
+  background-image: url(../images/slide/slide2m.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#slideblock3{
+  background-image: url(../images/slide/slide3m.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#slideblock4{
+  background-image: url(../images/slide/slide4m.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#slideblock5{
+  background-image: url(../images/slide/slide5m.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+  .carousel-caption h1 {
+    font-size: 4vh !important;
+  }
+
+  .carousel-caption p {
+    font-size: 2.5vh !important;
+  }
+
+  #hero-slide .carousel-caption {
+    top: 10%;
+    max-width: 75%;
+    max-height: max-content;
+    left: 15%;
+    text-align: left;
+    padding: 1vh 1vh .6vh 1vh;
+    background-color: #e9eaebcc;
+    border-radius: 8px;
+    flex-direction: column !important;
+    display: flex !important;
+  }
+.carousel-caption p{
+  text-transform: none;
+}
+
+  .carousel-caption .btn-knowmore {
+    background-color: #0866a7;
+    color: white;
+    width: 46%;
+  }
+
 
   .carousel-control-next-icon,
   .carousel-control-prev-icon {
